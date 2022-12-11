@@ -18,3 +18,4 @@ class Course(models.Model):     # Inherit abstract model: models.Model
                                          ('advanced', 'Advanced')],
                             copy=False)  
     active = fields.Boolean(string='Active', default=True)
+    test = fields.Char(string='Test', required=False)
